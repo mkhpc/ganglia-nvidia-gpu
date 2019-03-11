@@ -2,7 +2,7 @@
 
 > Ganglia is an open-source scalable distributed monitoring system for high-performance computing systems such as clusters and Grids. It is carefully engineered to achieve very low per-node overheads and high concurrency. Ganglia is currently in use on thousands of clusters around the world and can scale to handle clusters with several thousand of nodes. For NVIDIA GPUs, there now exists a python module for monitoring NVIDIA GPUs using the newly released Python bindings for NVML (NVIDIA Management Library). These bindings are under BSD license and allow simplified access to GPU metrics like temperature, memory usage, and utilization.
 
-This guide provides the steps to install Ganglia monitoring tool with the configuration of Gmond Python module for GPUs.
+This guide provides the steps to install Ganglia monitoring tool with the configuration of Gmond Python module for NVIDIA GPUs or NVIDIA DGX
 
 ## Installation of Ganglia
 
@@ -95,7 +95,7 @@ $ /etc/init.d/gmetad start
 $ /etc/init.d/apache2 restart
 ```
 
-## Configuration of Gmond Python module for GPUs
+## Configuration of Gmond Python module for NVIDIA GPUs
 
 modify gmod.conf
 ```console

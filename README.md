@@ -4,6 +4,8 @@
 
 This guide provides the steps to install Ganglia Monitoring Tool with the configuration of Gmond Python module for NVIDIA GPUs or Ganglia Monitoring Tool for NVIDIA DGX.
 
+Example DATA IP (Please change this from your IP): 192.168.56.10
+
 ## Installation of Ganglia
 
 Ubuntu 18.04/16.04

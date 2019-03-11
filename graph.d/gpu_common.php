@@ -1,4 +1,5 @@
 <?php
+
 /*
 Calculate range and modulus value for dot structured graph
 */
@@ -24,5 +25,6 @@ function calculate_mod_range($range_str)
            $range = 30;
     }
     $mod = $range/3;
+
     return array($range, $mod);
 }

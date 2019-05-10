@@ -126,7 +126,7 @@ $ mkdir /usr/lib/ganglia/python_modules
 prepare python module
 ```consolse
 $ git clone https://github.com/mkhpc/ganglia-nvidia-gpu.git
-$ cd /ganglia-nvidia-gpu
+$ cd ganglia-nvidia-gpu
 $ wget https://pypi.python.org/packages/72/31/378ca145e919ca415641a0f17f2669fa98c482a81f1f8fdfb72b1f9dbb37/nvidia-ml-py-7.352.0.tar.gz
 $ tar xvfpz nvidia-ml-py-7.352.0.tar.gz
 $ cd nvidia-ml-py-7.352.0
